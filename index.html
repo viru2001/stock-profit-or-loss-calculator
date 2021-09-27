@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Profit or Loss</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="heading-center">Stock Profit or Loss</div>
+    </nav>
+
+    <main class="container-center">
+      <div class="card">
+        <h1>Stock Profile & Loss Calculator</h1>
+
+        <label class="input-label" for="initial-price">
+          Initial Price
+          <input
+            class="input"
+            type="text"
+            id="initial-price"
+            placeholder="Enter Initial Price Here"
+        /></label>
+        <label class="input-label" for="stocks-quantity">
+          Quantity of Stocks
+          <input
+            class="input"
+            type="text"
+            id="stocks-quantity"
+            placeholder="Enter the Number of Stocks bought"
+          />
+        </label>
+        <label class="input-label" for="current-price"
+          >Current Price
+          <input
+            class="input"
+            type="text"
+            id="current-price"
+            placeholder="Enter the Current Price of the stocks"
+        /></label>
+        <p id="error-message"></p>
+
+        <button id="submit-btn" class="btn-check">Check</button>
+        <div id="output"></div>
+      </div>
+      <!-- <div id="output-box" class="output"></div> -->
+      <!-- <div class="output">
+        <img src="images/profit.svg"/>
+        <p>Your made profit !!! </p>
+    </div>
+    <div class="output">
+        <img src="images/loss.svg"/>
+        <p>Your made loss !!! </p>
+    </div> -->
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="name">Get In Touch With Me</div>
+      <div>
+        <ul class="list-non-bulleted">
+          <li class="list-inline">
+            <a class="link" href="https://github.com/viru2001" target="_blank"
+              ><img src="./images/footer-icons/github.svg" alt="github icon"
+            /></a>
+          </li>
+          <li class="list-inline">
+            <a
+              class="link"
+              href="https://www.linkedin.com/in/viresh-fegade-43a475148/"
+              target="_blank"
+              ><img
+                src="./images/footer-icons/linkedin.svg"
+                alt="linkedin icon"
+            /></a>
+          </li>
+          <li class="list-inline">
+            <a
+              class="link"
+              href="https://twitter.com/fegade_viresh"
+              target="_blank"
+              ><img src="./images/footer-icons/twitter.svg" alt="twitter icon"
+            /></a>
+          </li>
+          <li class="list-inline">
+            <a
+              class="link"
+              href="https://www.instagram.com/vireshfegade/"
+              target="_blank"
+              ><img
+                src="./images/footer-icons/instagram.svg"
+                alt="instagram icon"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>

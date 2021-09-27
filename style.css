@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --primary-color: #6d28d9;
+  --white:#fff;
+  --red : #ef4444;
+  --black: #000;
+}
+
+body {
+  font-family: "PT Serif", serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+  /* nav */
+  .heading-center {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--white);
+    padding: 0.5rem;
+  }
+  nav {
+    background-color: var(--primary-color);
+  }
+  .card {
+    box-shadow: 0 1px 25px rgb(146 161 176 / 50%);
+    margin: 1rem 0rem;
+  }
+/* Header */
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+header h1 {
+  text-align: center;
+  margin: 2rem;
+}
+
+.input-label {
+  display: block;
+  font-size: larger;
+  margin: 2rem 0px;
+  font-weight: 700;
+}
+
+.input {
+  font-size: large;
+  display: block;
+  outline: #fff;
+  padding: 0.6rem 1rem;
+  margin: 1rem auto;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 325px;
+}
+#error-message {
+  display: block;
+  font-size: larger;
+  margin: 1rem auto;
+  color: var(--red);
+}
+.btn-check {
+  background: var(--primary-color);
+  border: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: auto;
+  display: block;
+}
+
+/* .output {
+  font-size: x-large;
+  font-weight: 700;
+  margin: 2rem 0;
+} */
+#output {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+/* footer */
+.name {
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 2rem;
+    color: var(--white);
+  }
+  .list-non-bulleted {
+    list-style-type: none;
+  }
+  
+  .list-inline {
+    display: inline;
+    padding: 0.2rem;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: var(--white);
+  }
+.footer{
+    background-color: var(--primary-color);
+}
+.footer div{
+  text-align: center;
+  padding:1rem;
+}
