@@ -38,7 +38,7 @@ const isInputValid = ()=>{
 }
 const showOutput = (result , percentage,profitOrLoss)=>{
     if(profitOrLoss === "Profit"){
-        outputDiv.innerHTML = "<img src='images/profit.svg'/><p>You gained "+ profitOrLoss +"of "+result +" and profit percentage is "+percentage+" \n:) </p>";
+        outputDiv.innerHTML = "<img src='images/profit.svg'/><p>You gained "+ profitOrLoss +" of "+result +" and profit percentage is "+percentage+" \n:) </p>";
         card.style.backgroundColor = "rgb(50, 205, 50)";
     }
     else if (profitOrLoss === "Loss"){

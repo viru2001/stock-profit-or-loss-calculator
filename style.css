@@ -91,11 +91,12 @@ header h1 {
   display: block;
 }
 
-/* .output {
-  font-size: x-large;
-  font-weight: 700;
-  margin: 2rem 0;
-} */
+/* remove arrows from input field */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 #output {
     display: flex;
     align-items: center;
