@@ -39,11 +39,15 @@ const isInputValid = ()=>{
 const showOutput = (result , percentage,profitOrLoss)=>{
     if(profitOrLoss === "Profit"){
         outputDiv.innerHTML = "<img src='images/profit.svg'/><p>You gained "+ profitOrLoss +" of "+result +" and profit percentage is "+percentage+" \n:) </p>";
+        if(percentage >= 50){
         card.style.backgroundColor = "rgb(50, 205, 50)";
+        }
     }
     else if (profitOrLoss === "Loss"){
         outputDiv.innerHTML = "<img src='images/loss.svg'/><p>You are in from "+ profitOrLoss +" of "+result +" and loss percentage is "+percentage+" \n:( </p>";
+        if(percentage >= 50){
         card.style.backgroundColor = "rgb(239, 68, 68)";
+        }
     }
     else{
         outputDiv.innerHTML = "<img src='images/neutral.svg'/><p> No Profit No Loss </p>";
